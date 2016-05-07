@@ -1,4 +1,4 @@
-package RandomWord
+package randomword
 
 import (
 	"encoding/json"
@@ -15,7 +15,7 @@ type Word struct {
 }
 
 // RandomWord return word the user sent in past
-func ReturnWord(InWord string) string {
+func RandomWord(InWord string) string {
 	dbJSONPath := "./json/RWord.json"
 	var T [1000]Word
 	fmt.Println("set")
