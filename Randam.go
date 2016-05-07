@@ -14,7 +14,7 @@ type Word struct {
 }
 
 // RandomWord return word the user sent in past
-func RandomWord(InWord string) {
+func RandomWord(InWord string) string {
 	var T [1000]Word
 	fmt.Println("set")
 	rand.Seed(time.Now().UnixNano())
